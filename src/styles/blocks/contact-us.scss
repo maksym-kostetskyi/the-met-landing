@@ -1,12 +1,12 @@
 .contact-us {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
 
   color: $color-main-dark;
 
   @include on-tablet {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
     flex-flow: row wrap;
     column-gap: 75px;
   }
@@ -15,7 +15,7 @@
     display: grid;
     grid-template-columns: repeat(12, 63px);
     column-gap: 24px;
-    margin-bottom: 134px;
+    padding-bottom: 134px;
   }
 
   &__title {
